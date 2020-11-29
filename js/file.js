@@ -27,43 +27,15 @@ myInfo.onclick = function calc(){
     }
 }
 
-var frinds = [];
+var amount = document.getElementById('doller'),
 
-frinds[0]="yasser";
-frinds[1]="ahmed";
-frinds[2]="hassan";
+    dynamic = document.getElementById('skils'),
 
-frinds.indexOf();
+    myCalc = document.getElementById('sel');
 
-console.log(frinds);
+myCalc.onchange = function(){
 
+    var result = amount.value * myCalc.value;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var amount = document.getElementById('doller'),
-
-//     dynamic = document.getElementById('yo'),
-
-//     myInfo = document.getElementById('sel');
-
-// myInfo.onchange = function(){
-
-//     var result = amount.value * myInfo.value;
-
-//     dynamic.innerHTML = result;
-// };
+    dynamic.innerHTML = result;
+};
