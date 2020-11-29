@@ -9,41 +9,34 @@ myInfo.onclick = function calc(){
   if (isNaN(y)){
       document.getElementById('yo').innerHTML =
        "<p style='color:red'>filed</p>"
-
     } else if (y < 0){
       document.getElementById('yo').innerHTML =
        "<p style='color:red'>filed</p>"
-
     } else if (y === "0"){
       document.getElementById('yo').innerHTML =
        "<p style='color:red'>filed</p>"
-
     } else if (y === ""){
       document.getElementById('yo').innerHTML =
        "<p style='color:red'>filed</p>"
-
     } else if (y > 15){
       document.getElementById('yo').innerHTML =
        "<p style='color:red'>filed</p>"
-
     }else {
       document.getElementById('yo').innerHTML =
        "this is salary " + result ;
     }
 }
 
-var frinds = [
+var frinds = [];
 
-  [5,8,6],
-  [4,7,3],
-  [ [11,12,15],['yasser'] ],
-  [ [80,90,100],['hassan'] ],
-  [ [110,120,130],['ahmed'] ],
-  [ [140,150,160],['moh'] ]
+frinds[0]="yasser";
+frinds[1]="ahmed";
+frinds[2]="hassan";
 
-];
-var x = frinds.slice([3],[5])
-console.log(x);
+frinds.indexOf();
+
+console.log(frinds);
+
 
 
 
@@ -74,29 +67,3 @@ console.log(x);
 
 //     dynamic.innerHTML = result;
 // };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
